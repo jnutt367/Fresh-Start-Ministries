@@ -75,12 +75,18 @@
 }
 
 .statistics {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     margin-bottom: 4em;
 }
 
-.statistics h3 {
+.statistics h3 {}
+
+.statistics p {
+    height: 100px;
+    width: 100px;
     border: 1px solid red;
+    font-size: 2em;
     border-radius: 50%;
 }
 
@@ -94,7 +100,7 @@
     padding: 75px;
     font-size: 3em;
     font-weight: 800;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .menu {
