@@ -105,6 +105,7 @@
 
 .numbers {
     font-size: 2em;
+    text-shadow: 2px 2px black;
 }
 
 .statistics p:hover {
