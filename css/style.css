@@ -137,6 +137,11 @@ p {
     letter-spacing: 2px;
 }
 
+span {
+    color: grey;
+    text-shadow: 2px 2px antiquewhite;
+}
+
 @media (max-width:500px) {
     .statistics {
         display: flex;
