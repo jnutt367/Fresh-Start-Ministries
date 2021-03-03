@@ -33,6 +33,7 @@
 
 .logo {
     text-transform: uppercase;
+    text-shadow: 2px 2px red;
 }
 
 .toggle {
@@ -107,6 +108,7 @@
     font-weight: 800;
     letter-spacing: 1px;
     margin-bottom: 100px;
+    text-shadow: 2px 2px red;
 }
 
 .menu {
